@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Product Sans', sans-serif;
+	src: url('\fonts\Product Sans Bold.ttf');
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn {
+	@apply font-bold text-lg bg-coral text-white rounded w-full py-1.5;
+}
+
+button:hover,
+a:hover {
+	transform: scale(0.95);
+	transition: all 0.1s ease-out;
+}

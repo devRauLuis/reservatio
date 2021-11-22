@@ -3,6 +3,7 @@
 		{ name: 'Inicio', href: '/' },
 		{ name: 'Explorar', href: '/explorar' },
 		{ name: 'Reservaciones', href: '/reservaciones' },
+		{ name: 'Cambiar Contraseña', href: '/cambiar-contrasena' },
 	];
 	('');
 </script>

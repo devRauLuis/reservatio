@@ -6,7 +6,7 @@
 </script>
 
 <div class="container">
-	<div class= "solicitd-box">
+	<div class= "solicitud-box">
 		<div class="solicitud-box-activa">
 			<FormWrapper title="Solicitud de Establecimientos">
 				
@@ -63,8 +63,8 @@
 		height: 800px;
     	position: relative;
     	box-sizing: border-box;
-    	padding: 150px 130px;
-		transform: translate(0%, -10%);
+        padding: 120px 80px;
+		transform: translate(20%, -10%);
 	}
 
 </style>

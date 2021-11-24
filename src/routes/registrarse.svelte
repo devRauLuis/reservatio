@@ -17,7 +17,7 @@
 				type="text"
 				classes=""
 				placeholder="nombre completo"
-				wrapperClasses="mt-4"
+				wrapperClasses="mt-8"
 			/>
 
 			<Input
@@ -36,7 +36,7 @@
 				wrapperClasses="mt-3"
 			/>
 
-			<Button name="Iniciar sesion" type="submit" classes="mt-4" />
+			<Button name="Iniciar sesion" type="submit" classes="mt-6" />
 			<GoogleButton classes="mt-2" />
 		</FormWrapper>
 	</div>

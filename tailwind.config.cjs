@@ -14,6 +14,7 @@ const config = {
 			borderRadius: { DEFAULT: '5px' },
 		},
 	},
+	variants: { extend: { scale: ['group-focus'] } },
 	plugins: [],
 };
 

@@ -9,7 +9,7 @@
 <div class="h-screen flex flex-col">
 	<Navbar />
 
-	<main class="h-full">
+	<main class="h-full w-full bg-cover">
 		<slot />
 	</main>
 </div>

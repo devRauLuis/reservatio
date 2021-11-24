@@ -2,9 +2,6 @@
 	export let type, name, classes;
 </script>
 
-<button
-	{type}
-	class={`btn ${classes}`}
->
+<button {type} class={`btn ${classes}`}>
 	{name}
 </button>

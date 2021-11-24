@@ -10,15 +10,15 @@
 	<div class="container registrarse " />
 	<div class="container iniciar-sesion active-container">
 		<FormWrapper title="Iniciar sesion">
-			<span class=" "
-				>o <a href="/registrarse" class="text-coral">registrarse</a></span
-			>
+			<p class="">
+				o <a href="/registrarse" class="text-coral">registrarse</a>
+			</p>
 			<Input
 				icon={'/assets/icons/mail.svg'}
 				type="email"
 				classes=""
 				placeholder="correo electronico"
-				wrapperClasses="mt-3"
+				wrapperClasses="mt-8"
 			/>
 
 			<Input
@@ -29,7 +29,7 @@
 				wrapperClasses="mt-3"
 			/>
 
-			<Button name="Registrarse" type="submit" classes="mt-4" />
+			<Button name="Registrarse" type="submit" classes="mt-6" />
 			<GoogleButton classes="mt-2" />
 		</FormWrapper>
 	</div>

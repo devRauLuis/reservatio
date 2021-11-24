@@ -4,6 +4,7 @@
 	import GoogleButton from '$lib/components/GoogleButton.svelte';
 	import FormWrapper from '$lib/components/FormWrapper.svelte';
 	import '$lib/styles/login-signup.postcss';
+	import { user } from '$lib/stores';
 </script>
 
 <div id="container" class="grid grid-cols-2">
@@ -36,7 +37,9 @@
 				wrapperClasses="mt-3"
 			/>
 
-			<Button name="Iniciar sesion" type="submit" classes="mt-6" />
+			<button type="submit" on:click={user.login} class={`btn mt-6`}>
+				Registrarse
+			</button>
 			<GoogleButton classes="mt-2" />
 		</FormWrapper>
 	</div>

@@ -1,12 +1,13 @@
 <script>
+	import { user } from '$lib/stores';
+
 	export const options = [
 		{ name: 'Inicio', href: '/' },
 		{ name: 'Explorar', href: '/explorar' },
 		{ name: 'Reservaciones', href: '/reservaciones' },
-		{ name: 'Contraseña', href: '/cambiar-contrasena' },
-		{ name: 'Establecimiento', href: '/solicitudEstablecimiento' },
+		// { name: 'Contraseña', href: '/cambiar-contrasena' },
+		// { name: 'Establecimiento', href: '/solicitud-establecimiento' },
 	];
-	('');
 </script>
 
 <nav class="">
@@ -19,10 +20,36 @@
 				<a {href} class="">{name}</a>
 			{/each}
 		</div>
-		<a href="/iniciar-sesion" class="nav-btn"> Iniciar sesion </a>
-		<a href="/registrarse" class="nav-btn nav-primary-btn ml-2">
-			Registrarse
-		</a>
+		{#if $user}
+			<div
+				class="group flex items-center font-semibold transition-all duration-100"
+			>
+				<button
+					on:click={user.logout}
+					class="action-btn text-coral font-semibold"
+				>
+					Cerrar sesión
+				</button>
+				<a href="/cambiar-contrasena" class="action-btn">Cambiar contraseña </a>
+				<div
+					class="group group-hover:bg-black flex items-center p-2 rounded transition duration-75 ease-in"
+				>
+					<button class="bg-black rounded-full p-1.5 group-hover:bg-white">
+						<img
+							src="/assets/icons/person.svg"
+							alt=""
+							class="filter invert group-hover:invert-0"
+						/>
+					</button>
+					<p class="ml-2 font-bold group-hover:text-white">Fulano de Tal</p>
+				</div>
+			</div>
+		{:else}
+			<a href="/iniciar-sesion" class="nav-btn"> Iniciar sesion </a>
+			<a href="/registrarse" class="nav-btn nav-primary-btn ml-2">
+				Registrarse
+			</a>
+		{/if}
 	</div>
 </nav>
 
@@ -33,5 +60,9 @@
 
 	.nav-primary-btn {
 		@apply border-golden text-golden;
+	}
+
+	.action-btn {
+		@apply hidden w-0 group-hover:block group-hover:w-auto mr-6;
 	}
 </style>

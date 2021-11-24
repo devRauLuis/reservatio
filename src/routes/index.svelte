@@ -4,16 +4,18 @@
 			Encuentra una mesa, para <span class="font-black">toda</span> ocasión
 		</h1>
 		<div class="w-4/6 ">
-			<div class="bg-white flex mt-16 p-3 rounded shadow-lg text-2xl">
+			<div
+				class="hover:scale-105 transform transition duration-75 ease-in bg-white flex mt-16 p-3 rounded shadow-lg text-2xl"
+			>
 				<img src="/assets/icons/search.svg" alt="" class="mr-3 w-[35px]" />
 				<input
 					type="text"
-					class="w-full focus:outline-none font-bold text-black"
+					class=" w-full focus:outline-none font-bold text-black"
 					placeholder="Qué/dónde quieres cenar o tomarte unas copas..."
 				/>
 			</div>
 
-			<div class="mt-10 flex">
+			<div class="mt-8 ml-2 flex">
 				<a href="" class="cta-btn mr-12">
 					<img src="/assets/icons/bar.svg" alt="" class="filter invert mr-1" />
 					Bares

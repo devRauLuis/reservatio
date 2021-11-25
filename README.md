@@ -1,5 +1,7 @@
 # Reservatio
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![forthebadge](https://forthebadge.com/images/badges/built-with-sveltekit.svg)](https://kit.svelte.dev/)
+
 Esto es parte de una asignación de trabajo para la materia de **Diseño de Sistemas**.
 
 ## Instrucciones

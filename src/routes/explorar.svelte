@@ -33,12 +33,12 @@
 		{
 			name: 'Greenfelder, Koch and Rogahn',
 			price: '$1434.80',
-			distancia: 72,
+			distance: 72,
 		},
 		{
 			name: 'Hamill-Frami',
 			price: '$2523.49',
-			distancia: 54,
+			distance: 54,
 		},
 	];
 </script>

@@ -19,7 +19,7 @@ Este proyecto corre por defecto en la dirección [http://localhost:3000](http://
 
 También puede visitar la versión _live_ de este proyecto en: [https://reservatio-seven.vercel.app/](https://reservatio-seven.vercel.app/)
 
-## Miembros
+## Miembros del equipo
 
 - **Sander Peguero** _2018-0582_
 - **Raúl Luis Taveras** _2017-0491_

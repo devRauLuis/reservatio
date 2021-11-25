@@ -15,9 +15,9 @@ Puede clonar este proyecto y correrlo localmente corriendo los siguientes comand
 - `yarn` o `npm install` para instalar dependencias.
 - `yarn dev` o `npm dev` para correr el proyecto.
 
-Este proyecto corre por defecto en la dirección [http://localhost:3000](http://localhost:3000).
+Este proyecto corre por defecto en la dirección [`http://localhost:3000`](http://localhost:3000).
 
-También puede visitar la versión _live_ de este proyecto en: [https://reservatio-seven.vercel.app/](https://reservatio-seven.vercel.app/)
+También puede visitar la versión _live_ de este proyecto en: [`https://reservatio-seven.vercel.app/`](https://reservatio-seven.vercel.app/)
 
 ## Equipo A
 

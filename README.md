@@ -4,6 +4,12 @@ Esto es parte de una asignación de trabajo para la materia de **Diseño de Sist
 
 ## Instrucciones
 
+### Requisitos
+
+Debe instalar el paquete [`npm`](https://nodejs.org/en/).
+
+### Instalacion
+
 Puede clonar este proyecto y correrlo localmente corriendo los siguientes comandos:
 
 - `yarn` o `npm install` para instalar dependencias.

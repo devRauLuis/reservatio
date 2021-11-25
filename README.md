@@ -10,7 +10,7 @@ Debe instalar el paquete [`npm`](https://nodejs.org/en/).
 
 ### Instalacion
 
-Puede clonar este proyecto y correrlo localmente corriendo los siguientes comandos:
+Puede clonar este proyecto, navegar hasta el directorio del proyecto y correrlo localmente corriendo los siguientes comandos:
 
 - `yarn` o `npm install` para instalar dependencias.
 - `yarn dev` o `npm dev` para correr el proyecto.

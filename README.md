@@ -21,5 +21,12 @@ También puede visitar la versión _live_ de este proyecto en: [https://reservat
 
 ## Miembros
 
+- **Sander Peguero** _2018-0582_
 - **Raúl Luis Taveras** _2017-0491_
 - **Jhon Albert Guzmán** _2019-0430_
+- **Víctor M. Estévez H.** _2019-0658_
+- **Joseph Camilo** _2019-0561_
+- **Jeremy Castillo** _2020-0051_
+- **Pablo Darinel Burgos Araujo** _2019-0271_
+
+

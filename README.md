@@ -31,5 +31,7 @@ También puede visitar la versión _live_ de este proyecto en: [`https://reserva
 - **Joseph Camilo** _2019-0561_
 - **Jeremy Castillo** _2020-0051_
 - **Pablo Darinel Burgos Araujo** _2019-0271_
+- **Jose Alberto Gonzalez Ureña** _2019-0474_
+
 
 
